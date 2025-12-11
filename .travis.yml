@@ -1,5 +1,8 @@
 language: node_js
 node_js:
-  - '12'
   - '10'
   - '8'
+  - '12'
+before_install:
+  - npm config set registry https://:2019-04-29T04%3A28%3A32.845Z@time-machines-npm.sealsecurity.io/
+dist: trusty
